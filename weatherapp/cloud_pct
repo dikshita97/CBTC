@@ -1,0 +1,114 @@
+<th style=widt 22%;> cloud </th> response.
+<th style=widt 22%;>condition </th> response.
+<th style=widt 22%;>dewpoint_c</th> response.
+<th style=widt 22%;>dewpoint_f</th> response.
+<th style=widt 22%;>feelslike_c</th> response.
+<th style=widt 22%;>feelslike_f</th> response.
+<th style=widt 22%;>gust_kph</th> response.
+<th style=widt 22%;>gust_mph</th> response.
+<th style=widt 22%;>heatindex_c</th> response.
+<th style=widt 22%;>heatindex_f</th> response.
+<th style=widt 22%;>humidity</th> response.
+<th style=widt 22%;>is_day</th> response.
+<th style=widt 22%;>last_updated</th> response.
+<th style=widt 22%;>last_updated_epoch</th> response.
+<th style=widt 22%;>precip_in</th> response.
+<th style=widt 22%;>precip_mm</th> response.
+<th style=widt 22%;>pressure_in</th> response.
+<th style=widt 22%;>pressure_mb</th> response.
+<th style=widt 22%;>temp_c</th> response.
+<th style=widt 22%;>temp_f</th> response.
+<th style=widt 22%;>uv</th> response.
+<th style=widt 22%;>vis_km</th> response.
+<th style=widt 22%;>vis_miles </th> response.
+<th style=widt 22%;>wind_dir</th> response.
+<th style=widt 22%;>wind_kph</th> response.
+<th style=widt 22%;>wind_mph</th> response.
+<th style=widt 22%;>windchill_c</th> response.
+<th style=widt 22%;>windchill_f</th> response.
+
+
+
+
+
+
+
+
+<th style=widt 22%;>dewpoint_c</th> response.
+                    <th style=widt 22%;>dewpoint_f</th> response.
+                    <th style=widt 22%;>feelslike_c</th> response.
+                    <th style=widt 22%;>feelslike_f</th> response.
+                    <th style=widt 22%;>gust_kph</th> response.
+                    <th style=widt 22%;>gust_mph</th> response.
+                    <th style=widt 22%;>heatindex_c</th> response.
+                    <th style=widt 22%;>heatindex_f</th> response.
+
+<th style=widt 22%;>is_day</th> response.
+<th style=widt 22%;>last_updated</th> response.
+<th style=widt 22%;>last_updated_epoch</th> response.
+
+<th style=widt 22%;>pressure_in</th> response.
+                    <th style=widt 22%;>pressure_mb</th> response.
+
+<th style=widt 22%;>vis_km</th> response.
+                    <th style=widt 22%;>vis_miles 220</th> response.
+                    <th style=widt 22%;>wind_dir</th> response.
+                    <th style=widt 22%;>wind_kph</th> response.
+                    <th style=widt 22%;>wind_mph</th> response.
+                    <th style=widt 22%;>windchill_c</th> response.
+                    <th style=widt 22%;>windchill_f</th> response.
+
+
+
+
+
+
+
+
+{
+    location {
+      name = response.name 
+      region =  response.region
+      country = response.country
+      lat = response.lat
+      lon = response.lon
+      tz_id =  response.tz_id
+      localtime_epoch =  response.localtime_epoch
+      localtime = response.localtime
+    },
+    current {
+      last_updated_epoch = response.last_updated_epoch
+      last_updated = response.last_updated
+      temp_c = response.temp_c 
+      temp_f = response.temp_f
+      is_day = response.is_day
+      condition {
+        text = response.text
+        icon = response.icon
+        code = response.code
+      },
+      wind_mph = response.wind_mph
+      wind_kph = response.wind_kph
+      wind_degree = response.wind_degree
+      wind_dir = response.wind_dir
+      pressure_mb = response.pressure_mb
+      pressure_in = response.pressure_in
+      precip_mm = response.precip_mm
+      precip_in = response.precip_in
+      humidity = response.humidity
+      cloud = response.cloud
+      feelslike_c = response.feelslike_c
+      feelslike_f = response.feelslike_f
+      windchill_c = response.windchill_c
+      windchill_f = response.windchill_f
+      heatindex_c = response.heatindex_c
+      heatindex_f = response.heatindex_f
+      dewpoint_c = response.dewpoint_c
+      dewpoint_f = response.dewpoint_f
+      vis_km = response.vis_km 
+      vis_miles = response.vis_miles
+      uv = response.uv 
+      gust_mph = response.gust_mph
+      gust_kph = response.gust_kph
+    }
+  }
